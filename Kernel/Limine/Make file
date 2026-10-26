@@ -1,0 +1,9 @@
+
+BUILD_DIR := build
+KERNEL_SRC := kernel/main.c
+
+.PHONY: help
+help:
+	@echo "Fusion OS build system"
+	@echo "Next: configure the compiler and bootloader"
+	@echo "No bootable image is built yet."
